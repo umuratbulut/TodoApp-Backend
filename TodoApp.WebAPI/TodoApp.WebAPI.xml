@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApp.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.GetList">
+            <summary>
+            Get All Todos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.GetById(System.Int32)">
+            <summary>
+            Get Todo By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.Add(TodoApp.Entities.Concrete.Todo)">
+            <summary>
+            Create a Todo
+            </summary>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.Update(TodoApp.Entities.Concrete.Todo)">
+            <summary>
+            Update Todo
+            </summary>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.Delete(TodoApp.Entities.Concrete.Todo)">
+            <summary>
+            Delete Todo
+            </summary>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.TodosController.SetStatus(System.Int32)">
+            <summary>
+            Change Todo Status By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.GetList">
+            <summary>
+            Get All Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.Find(System.Int32)">
+            <summary>
+            Get User By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.Add(TodoApp.Entities.Concrete.User)">
+            <summary>
+            Create a User
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.Login(TodoApp.Entities.Concrete.User)">
+            <summary>
+            Login
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.Update(TodoApp.Entities.Concrete.User)">
+            <summary>
+            Update a User
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApp.WebAPI.Controllers.UsersController.ChancePassword(TodoApp.Entities.Concrete.User,System.String)">
+            <summary>
+            Change Password
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
